@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+div#delivery {
+    display: block;
+    font-size: 15pt;
+    color: white;
+    float: right;
+}
+div#delivery a {
+    color: white;
+}
+div#delivery a:hover {
+    text-decoration: underline;
+}
+
+main#cardapio {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main#cardapio h1 {
+    font-family: 'ArTarumianGovazd-Italic';
+}
+
+main#cardapio dt {
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+}
+main#cardapio dt:hover {
+    text-decoration: underline;
+}
+
+li img {
+    display: none;
+}
+
+li:hover img {
+    display: inline-flex;
+    margin-right: 50px;
+    float: right;
+}
+
+main#cardapio li {
+    list-style-type: none;
+}
+
+
+
+
+

@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+p {
+    font-size: 25pt;
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+ul#album-fotos {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: all .4s ease-in;
+}
+
+ul#album-fotos li#foto01 {
+    background: url(../imagens/solange\ canta.jpg) no-repeat;
+    background-position: 50% 20%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto02 {
+    background: url(../imagens/mae\ pai.jpg) no-repeat;
+    background-position: 20% 30%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto03 {
+    background: url(../imagens/padrinho.jpg) no-repeat;
+    background-position: 50% 20%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto04 {
+    background: url(https://scontent.fcgh37-1.fna.fbcdn.net/v/t1.6435-9/119043362_144206244013739_2523561296057892344_n.jpg?_nc_cat=105&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_eui2=AeFN88An-WrFBFAEFINaHA2Iht9A3RK6_02G30DdErr_TU59d8biU7ar82JEwoDDk2WuFyIFYC2B7YrhXX1lsL7X&_nc_ohc=5te3cgwnr-sAX_gJbMd&_nc_ht=scontent.fcgh37-1.fna&oh=b3d0c8d4adbfbdead1bdd0b7cc27cbd8&oe=60E36606) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto05 {
+    background: url(https://scontent.fcgh11-1.fna.fbcdn.net/v/t1.6435-9/108163659_121384209629276_5374651332802004534_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=8bfeb9&_nc_eui2=AeECTuipvdY__JoaxYOsud_faUuVrXxmEYdpS5WtfGYRh7mRNf-jGNDOY0nat9F_TC4RTibkAcIWK945WaT1Plc0&_nc_ohc=X0QohBWFVWcAX_9FODM&_nc_ht=scontent.fcgh11-1.fna&oh=97759fee329440a4333f9729d6a80ba2&oe=60E7AAC5) no-repeat;
+    background-position: 50% 0%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto05:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto06 {
+    background: url(https://scontent.fcgh37-1.fna.fbcdn.net/v/t1.6435-9/104411599_102123658221998_4403837614287481401_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=730e14&_nc_eui2=AeHRoMs-0alg9Gtk6v-3rYhO8C7nHeqcj23wLucd6pyPbcK5pVEjugAkH9umSVX1vI0xaJ7f1NlTYRIDLmpcqFaC&_nc_ohc=U7ZIuJEkcHkAX-fnsTR&_nc_ht=scontent.fcgh37-1.fna&oh=53b6eb323be0e793f514cdd5c075c001&oe=60E3032F) no-repeat;
+    background-position: 50% 30%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto06:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li span {
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0, 0, 0, .4);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+ul#album-fotos li:hover span {
+    opacity: 1;
+}
+
+ul#album-fotos li:hover {
+    -webkit-transform: scale(1.5);
+}

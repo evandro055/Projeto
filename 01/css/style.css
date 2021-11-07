@@ -1,0 +1,222 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'ArTarumianGovazd-Italic';
+    src:url('../fonte/ArTarumianGovazd-Italic.ttf.woff') format('woff'),
+        url('../fonte/ArTarumianGovazd-Italic.ttf.svg#ArTarumianGovazd-Italic') format('svg'),
+        url('../fonte/ArTarumianGovazd-Italic.ttf.eot'),
+        url('../fonte/ArTarumianGovazd-Italic.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(55, 55, 140), #01a956 );
+    color: black;    
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;   
+}
+
+header#cabecalho {
+    padding-left: 30px; 
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+
+hgroup.Logo {
+    display: inline-block;
+    transform: rotate(-15deg);
+    padding: 10px;
+}
+
+hgroup.Logo a {
+    text-decoration: none;
+}
+
+hgroup.Logo h1 {
+    font-family:'ArTarumianGovazd-Italic';
+    font-size: 70pt;
+    color: rgb(5,16,100);
+    text-shadow: 0px 0px 8px white;
+    margin-top: -25px;
+}
+
+hgroup.Logo h2 {
+    font-family: 'ArTarumianGovazd-Italic';
+    font-size: 70pt;
+    margin-left: 70px;
+    text-shadow: 0px 0px 8px white;
+    margin-top: -115px;
+    color: #01a956;    
+}
+
+hgroup.Logo h3 {
+    font-size: 20pt;
+    margin-top: -110px;
+    margin-left: 225px;
+    color: rgb(63,64,145);
+    text-shadow: 0px 0px 2.5px white;
+    font-weight: bold;
+}
+
+nav#menu a {   
+    font-size: 15pt;
+    text-decoration: none;
+    color: #01a956;
+    transition-duration: .5s;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu a:hover {
+    text-decoration: underline;
+    color: rgb(63,64,145);
+    
+}
+
+nav#menu ul {
+    display: block;
+    list-style: none;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0px;
+    right: 150px;    
+}
+
+nav#menu li {
+    font-size: 15pt;
+    display: inline-flex;
+    padding: 10px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+nav#menu li:hover {
+    background-color:rgb(1,169,86);
+    border-radius: 10px; 
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+div#interface {
+    padding: 20px;
+    margin-top: -25px;
+    height: 600px;
+    margin-left: 50px;
+}
+
+.salao {
+    display: block;
+    margin-bottom: -600px;
+    width: 60%;
+    margin-top: 0px;
+}
+
+div#interface p {
+    
+    font-family: 'ArTarumianGovazd-Italic';
+    font-size: 20pt;
+    color:white;
+    text-align: end;
+    padding-bottom: 35px;
+}
+
+div#interface a {
+    color:white;
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+div#interface a:hover {
+    text-decoration: underline;
+}
+
+footer#rodape {
+    background-image: transparent;
+    padding: 20px;
+    margin-top: 250px;
+}
+
+span p {
+    color: rgb(63,64,145);
+    padding: auto;
+    margin-left: 10px;
+    font-size: 15pt;
+}
+
+span a {
+    padding: auto;
+}
+
+span#contato {
+    display: inline-block;    
+}
+
+span#redes {
+    display: inline-table;
+    float: right;
+    padding-bottom: 50px;
+    margin-right: 10px;  
+}
+
+span#centro {
+    display: inline-block;
+}
+
+footer#nome p {
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+}
+
+
+@media (max-width: 1066px) {
+    nav#menu {
+    display: none;
+    }
+
+    .zero {
+        position: absolute;
+        right: 50px;
+        margin-top: -200px;
+        margin-bottom: 180px;
+    }
+    
+    .one, .two, .three {
+        display: block;
+        background-color: white;
+        width: 40px;
+        height: 5px;
+        margin: 5px;
+    }
+
+    div#interface p {
+        text-align: center;
+        
+    }
+    .salao {
+        width: 100%;
+        margin-bottom: 0px;
+        
+    }  
+
+footer#rodape {
+    margin-top: 500px;
+}
+
+footer#nome {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
